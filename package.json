@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --watch . --exec npm start"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +18,12 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^19.0.9"
+    "electron": "^19.0.10",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "moment": "^2.29.4",
+    "puppeteer": "^15.5.0"
   }
 }

@@ -1,3 +1,31 @@
-/* styles.css */
+header {
+     text-align: center;
+     font-family: Arial;
+}
 
-/* Add styles here to customize the appearance of your app */
+main {
+     height: 60vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+button {
+     width: 105px;
+     cursor: pointer;
+     padding: 0.25em;
+     background: #3faf3f;
+     color: #fff;
+     border: none;
+     box-shadow: 4px 2px 8px #888888;
+     font-size: 1.5rem;
+}
+
+button:hover {
+     opacity: .75;
+}
+
+button:disabled{
+     background: #d1caca;
+     cursor: wait;
+}
