@@ -23,7 +23,7 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0",
+    "bootstrap": "^5.2.1",
     "moment": "^2.29.4",
     "puppeteer": "^15.5.0"
   }
